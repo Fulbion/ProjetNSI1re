@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>OS mobiles | Les systèmes d'exploitation</title>
+    <script src="https://kit.fontawesome.com/af9101e8aa.js" crossorigin="anonymous"></script>
+    <link rel='stylesheet' type='text/css' href='css/style.css'>
+</head>
+<body>
+    <header>
+        <section class="header-section">
+            <div class="header-left">
+                <span class="header-title">Baptiste</span>
+            </div>
+            <div class="header-middle">
+                <div class="header-search-box">
+                    <input type="text" name="" id="" placeholder="Rechercher">
+                    <button><i class="fa-solid fa-search"></i></button>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="header-settings">
+                    <span class="change-theme-button">
+                        <i class="fa-solid fa-moon change-theme" id="theme-button"></i>
+                    </span>
+                    <span class="account-button">
+                        <i class="fa-solid fa-circle-user"></i>
+                    </span>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main class="grid">
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="index.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="history.html">Histoire</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pc.html">Windows & MacOS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="linux.html">Linux</a>
+                </li>
+                <li class="nav-item current">
+                    <a href="mobile.html">Android & iOS</a>
+                </li>
+            </ul>
+        </nav>
+        <div>
+            <section class="home">
+                <article class="home-container container grid">
+                    <div class="home-content grid">
+                        <div class="home-img">
+                            <svg class="home-blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <image class="home-blob-img popup-button popup-windows" x="28" y="24" href="./img/home.png"/>
+                                </g>
+                            </svg>                        
+                        </div>
+                        <div class="home-data">
+                            <h1 class="home-title">Android & iOS</h1>
+                            <h3 class="home-subtitle">(fait en quelques jours pour un devoir en NSI)</h3>
+                            <p class="home-description">
+                                Sur cette page se trouvent des informations concernant les 2 OS pour mobiles les plus connus : Android de Google et iOS de Apple.
+                            </p>
+                            <a href="#about" class="button button-flex"><i class="fa-solid fa-comment-dots nav-icon"></i> &nbsp; En savoir plus...</a>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section class="about" id="about">
+                <h2 class="section-title">Android</h2>
+                <span class="section-subtitle">Bip boup. Boup bip ?</span>
+                <div class="about-container container grid">
+                    <img src="img/about-4.jpeg" alt="Une photo." class="about-img">
+                    <div class="about-data">
+                        <p class="about-description">
+                            Android, c'est le système d'exploitation le plus utilisé par les smartphones. Plus de 85% des tééphones portables utilisent ce système d'exploitation basé sur euh... <a href="linux.html">Linux</a>.
+                            
+                            Dans le <i>Guide du développeur</i>, Android est défini comme étant une pile de logiciels (un ensemble de logiciels destinés à fournir une solution clé en main pour les appareils mobiles).
+                            Cette pile comporte un système d'exploitation (comprenant un noyau Linux), les applications clés telles que le navigateur web, le téléphone et ainsi que des logiciels intermédiaires
+                            entre le système d'exploitation et les applications. L'ensemble est organisé en cinq couches distinctes :
+                            <ul class="list">
+                                <li>le noyau Linux avec les pilotes ;</li>
+                                <li>des bibliothèques logicielles telles que WebKit/Blink, OpenGL ES, SQLite ou FreeType ;</li>
+                                <li>un environnement d'exécution et des bibliothèques permettant d'exécuter des programmes prévus pour la plate-forme Java ;</li>
+                                <li>un framework — kit de développement d'applications ;</li>
+                                <li>un lot d'applications standard qui comprend un environnement de bureau, un carnet d'adresses, un navigateur web et une application téléphone.</li>
+                            </ul>
+                            <br><br>
+                            Les applications sont pour la plupart développées en Java ou en Kotlin, avec du XML.
+                            Pour ceux qui sont intéressés, voici un petit tuto pour créer une application sous Android :
+                            <br><br>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/8CR40Dp1srw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="about" id="about">
+                <h2 class="section-title">iOS</h2>
+                <span class="section-subtitle">Bip boup. Boup bip ?</span>
+                <div class="about-container container grid">
+                    <img src="img/about-1.png" alt="Une photo." class="about-img">
+                    <div class="about-data">
+                        <p class="about-description">
+                            iOS est le système d'exploitation mobile d'Apple (excellente idée car comme ça ils ont deux fois plus de concurrents (Google pour les téléphones et Microsoft pour les ordis)...).
+                            Ici, les applications sont écrites différemment et avec un langage différent (le pus souvent Swift et C++), ce qui fait que les applications sont souvent incompatibles entre Android
+                            et iOS, et doivent être réécrites pour pouvoir à la fois être installées depuis l'App Store et depuis le Google Play Store.
+                            <br><br>
+                            En 2005, lorsque Steve Jobs conçoit l'iPhone, il a le choix entre réduire le Mac, ce qui est un exploit épique en matière d'ingénierie, ou agrandir l'iPod.
+                            Steve Jobs privilégie la première solution mais oppose les équipes Macintosh et iPod, dirigées respectivement par Scott Forstall et Tony Fadell,
+                            dans une compétition interne. Forstall l'emporte en créant un système d'exploitation. Forstall est également responsable de la création d'un kit de développement logiciel
+                            permettant aux programmeurs de créer des applications pour l'iPhone, ainsi que d'un App Store au sein d'iTunes.
+                        </p>
+                    </div>
+                </div>
+        </div>
+        <!-- <h2>Qu'est-ce que c'est ?</h2>
+        <p>
+            Pour la faire courte, un système d'exploitation est un ensemble de programmes qui dirige l'utilisation des ressources d'un ordinateur par des logiciels applicatifs. Le système d'exploitation gère les demandes ainsi que les ressources nécessaires évitant les interférences entre les logiciels.
+        </p> -->
+    </main>
+    <script src="js/index.js"></script>
+</body>
+</html>

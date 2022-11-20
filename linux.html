@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Linux | Les systèmes d'exploitation</title>
+    <script src="https://kit.fontawesome.com/af9101e8aa.js" crossorigin="anonymous"></script>
+    <link rel='stylesheet' type='text/css' href='css/style.css'>
+</head>
+<body>
+    <header>
+        <section class="header-section">
+            <div class="header-left">
+                <span class="header-title">Baptiste</span>
+            </div>
+            <div class="header-middle">
+                <div class="header-search-box">
+                    <input type="text" name="" id="" placeholder="Rechercher">
+                    <button><i class="fa-solid fa-search"></i></button>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="header-settings">
+                    <span class="change-theme-button">
+                        <i class="fa-solid fa-moon change-theme" id="theme-button"></i>
+                    </span>
+                    <span class="account-button">
+                        <i class="fa-solid fa-circle-user"></i>
+                    </span>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main class="grid">
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="index.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="history.html">Histoire</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pc.html">Windows & MacOS</a>
+                </li>
+                <li class="nav-item current">
+                    <a href="linux.html">Linux</a>
+                </li>
+                <li class="nav-item">
+                    <a href="mobile.html">Android & iOS</a>
+                </li>
+            </ul>
+        </nav>
+        <div>
+            <section class="home">
+                <article class="home-container container grid">
+                    <div class="home-content grid">
+                        <div class="home-img">
+                            <svg class="home-blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <image class="home-blob-img popup-button popup-windows" x="28" y="24" href="./img/home.png"/>
+                                </g>
+                            </svg>                        
+                        </div>
+                        <div class="home-data">
+                            <h1 class="home-title">Linux</h1>
+                            <h3 class="home-subtitle">(fait en quelques jours pour un devoir en NSI)</h3>
+                            <p class="home-description">
+                                Sur cette page se trouvent des informations concernant l'alternative gratuite à Windows : Linux.
+                            </p>
+                            <a href="#about" class="button button-flex"><i class="fa-solid fa-comment-dots nav-icon"></i> &nbsp; En savoir plus...</a>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section class="about" id="about">
+                <h2 class="section-title">LINUX !!</h2>
+                <span class="section-subtitle">C'est quoi ?</span>
+                <div class="about-container container grid">
+                    <img src="img/about-3.jpeg" alt="Une photo." class="about-img">
+                    <div class="about-data">
+                        <p class="about-description">
+                            Linux, c'est plus ou moins l'inverse de Windows et de MacOS qui sont des systèmes d'exploitation propriétaires :
+                            c'est un OS open-source. Ou plutôt, c'est un groupe d'OS open-source. Effectivement, Linux est seulement la base des OS
+                            créés par des gens passionnés (les plus connus étant Debian, Ubuntu, etc.)
+                            <br><br>
+                            Linux a été développé pour les ordinateurs compatibles PC. Pourtant, il n'a jamais équipé qu'une très faible part des ordinateurs personnels.
+                            Mais le noyau Linux, accompagné ou non des logiciels GNU, est également utilisé par d'autres types de systèmes informatiques,
+                            notamment les serveurs, téléphones portables, systèmes embarqués ou encore superordinateurs. Le système d'exploitation pour téléphones
+                            portables Android qui utilise le noyau Linux mais pas GNU, équipe aujourd'hui 85 % des tablettes tactiles et smartphones.
+                        </p>
+                        <p class="about-description">
+                            Fun fact : L'icône de Linux, le pingouin, se nomme Tux.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- <h2>Qu'est-ce que c'est ?</h2>
+        <p>
+            Pour la faire courte, un système d'exploitation est un ensemble de programmes qui dirige l'utilisation des ressources d'un ordinateur par des logiciels applicatifs. Le système d'exploitation gère les demandes ainsi que les ressources nécessaires évitant les interférences entre les logiciels.
+        </p> -->
+    </main>
+    <script src="js/index.js"></script>
+</body>
+</html>
