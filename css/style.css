@@ -200,7 +200,7 @@ main {
 nav {
     margin-top: var(--header-height);
     display: block;
-    width: 40%;
+    width: 30%;
     background-color: var(--container-color);
 }
 
